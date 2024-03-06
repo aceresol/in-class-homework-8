@@ -1,6 +1,6 @@
 package edu.iu.habahram.ducksservice.model;
 
-public record DuckData(int id, String type) implements Comparable<DuckData{
+public record DuckData(int id, String type) implements Comparable<DuckData>{
 
     @Override
     public int compareTo(DuckData other) {
